@@ -63,6 +63,7 @@ body{
 
 table{
     width: 100%;
+    margin: 0%;
 }
 
 #menu{
@@ -83,10 +84,22 @@ td{
     border-radius: 3px;
     border-style: solid;
     border-color: white;
+    margin: 0%;
+    width: 50%;
+}
+
+tr{
+    margin: 0%;
 }
 
 #mlink{
     text-decoration: none;
+    color: white;
+}
+
+#mlink:hover{
+    text-decoration: none;
+    color:rgb(43, 125, 226);;
 }
 
 #menu:hover{
@@ -110,3 +123,15 @@ td{
     border-radius: 3px;
     border-color: white;
 }
+
+#menu1 span {
+    width: 100%; /* Ensure spans fill the container width */
+  }
+
+.left-aligned {
+    text-align: left;
+  }
+  
+.right-aligned {
+    text-align: right;
+  }
